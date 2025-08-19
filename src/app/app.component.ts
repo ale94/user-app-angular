@@ -3,10 +3,9 @@ import { RouterOutlet } from '@angular/router';
 import { UserAppComponent } from './components/user-app/user-app.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, UserAppComponent],
-  templateUrl: './app.component.html'
+    selector: 'app-root',
+    imports: [RouterOutlet, UserAppComponent],
+    templateUrl: './app.component.html'
 })
 export class AppComponent {
   title = 'user-app';

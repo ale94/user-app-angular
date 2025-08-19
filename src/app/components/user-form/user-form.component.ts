@@ -4,10 +4,9 @@ import { User } from '../../models/user';
 import { SharingDataService } from '../../services/sharing-data.service';
 
 @Component({
-  selector: 'user-form',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './user-form.component.html',
+    selector: 'user-form',
+    imports: [FormsModule],
+    templateUrl: './user-form.component.html'
 })
 export class UserFormComponent {
   user: User;

@@ -5,10 +5,9 @@ import { UserService } from '../../services/user.service';
 import { SharingDataService } from '../../services/sharing-data.service';
 
 @Component({
-  selector: 'user',
-  standalone: true,
-  imports: [RouterModule],
-  templateUrl: './user.component.html',
+    selector: 'user',
+    imports: [RouterModule],
+    templateUrl: './user.component.html'
 })
 export class UserComponent {
   title = 'User List!';

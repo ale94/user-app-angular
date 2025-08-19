@@ -6,10 +6,10 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from '../navbar/navbar.component';
 
 @Component({
-  selector: 'user-app',
-  standalone: true,
-  imports: [RouterOutlet, NavbarComponent],
-  templateUrl: './user-app.component.html',
+    selector: 'user-app',
+    imports: [RouterOutlet, NavbarComponent],
+    standalone: true,
+    templateUrl: './user-app.component.html'
 })
 export class UserAppComponent implements OnInit {
   users: User[] = [];
